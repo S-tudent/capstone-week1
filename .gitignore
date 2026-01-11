@@ -1,0 +1,108 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.*.swp
+
+# Office Temporary Files
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+.~lock.*
+
+# Backup Files
+*.bak
+*.backup
+*_backup.*
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment Variables (IMPORTANT - DON'T COMMIT SECRETS!)
+.env
+.env.local
+.env.*.local
+secrets.txt
+config/secrets.json
+
+# Large Binary Files (adjust as needed)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+# Uncomment if you have large data files:
+# *.csv
+# *.xlsx
+# *.db
+
+# Logs
+*.log
+logs/
+
+# Build Directories
+build/
+dist/
+target/
+out/
+
+# Compiled Files
+*.class
+*.exe
+*.o
+
+# Database
+*.sqlite
+*.db
+
+# Keep important folders but ignore their contents initially
+# (remove these if you want to track specific files in these folders)
+# data/*
+# !data/.gitkeep
+
+# Exception: Always include these folders even if empty
+!evidence/week-1/.gitkeep
+!evidence/week-3/.gitkeep
+!evidence/week-6/.gitkeep
